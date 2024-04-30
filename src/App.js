@@ -1,4 +1,5 @@
 import './App.css';
+import HeaderUI from "./header";
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
 
     return (
         <div className="App">
-
+            <HeaderUI />
         </div>
     );
 }
