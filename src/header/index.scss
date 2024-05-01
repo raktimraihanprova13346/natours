@@ -6,6 +6,7 @@
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   position: relative;
+  display: block;
 }
 
 .header-logo{
@@ -82,5 +83,34 @@
     opacity: 1;
     transform: translate(0);
   }
+
+}
+
+.header-button, .header-button:link, .header-button:visited{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  padding: 15px 20px;
+  letter-spacing: 2px;
+  border-radius: 200px;
+  top: 70%;
+  transition: all .2s;
+}
+
+.header-button:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.header-button:active{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.btn-white{
 
 }

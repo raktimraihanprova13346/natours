@@ -10,6 +10,8 @@ const headerUI = () => {
                 <span className="header-textbox-first">Outdoors</span>
                 <span className="header-textbox-second">is where life happens</span>
             </div>
+
+            <a href="#" className="header-button btn-white"> Discover with US</a>
         </div>
     )
 }
