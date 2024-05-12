@@ -7,11 +7,12 @@
 
 .row{
   max-width: inherit;
-  border: 1px solid red;
+  //border: 1px solid red;
   align-content: center;
   text-align: center;
-  padding: 0px 2px;
+  padding: 2px;
   margin: 0 auto;
+
 }
 
 .col-01{
@@ -19,8 +20,6 @@
   text-align: left;
   width: calc((100% - 100px)/2);
 }
-
-
 
 .about-title{
   display: block;
@@ -38,3 +37,68 @@
     transform: skewY(-2deg) skewX(-7deg);
   }
 }
+
+.message-01, .message-02{
+  font-size: 16px;
+  color: #3a3737;
+}
+
+.button-learn-more{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  backface-visibility: hidden;
+  background-color: black;
+  display: inline-block;
+  border-radius: 100px;
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  align-content: center;
+
+  &-a,
+  &-a:before,
+  &-a:after,
+  &-a:visited,
+  &-a:link,
+  &-a:active{
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #42b342;
+    border-bottom: 2px solid #42b342;
+  }
+
+  &-a:hover{
+    animation-name: button-hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes button-hover {
+    0%{
+      background-color: transparent;
+
+    }
+
+    50%{
+      background-color: #427a42;
+      box-shadow: 1px 1px 2px rgb(136, 179, 146);
+      color: #fff;
+
+    }
+
+    100%{
+      background-color: #42b342;
+      box-shadow: 2px 2px 2px rgb(136, 179, 146);
+      color: #fff;
+    }
+  }
+
+  //@include clearfix();
+}
+

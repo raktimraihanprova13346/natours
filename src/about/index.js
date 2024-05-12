@@ -11,17 +11,21 @@ const about = () => {
                     <div className="message-01">
                         <h3 className="message-01-header">You are going to fall in Love in with</h3>
                         <p className="message-01-paragraph">
-                            You are going to fall in Love in withYou are going to fall in Love in with <br/> You are
-                            going to fall in Love in with <br/> You are going to fall in Love in with
+                            You are going to fall in Love in with. You are going to fall in Love in with. You are
+                            going to fall in Love in with. You are going to fall in Love in with
                         </p>
                     </div>
 
                     <div className="message-02">
                         <h3 className="message-02-header">You are going to fall in Love in with</h3>
                         <p className="message-02-paragraph">
-                            You are going to fall in Love in withYou are going to fall in Love in with <br/> You are
-                            going to fall in Love in with <br/> You are going to fall in Love in with
+                            You are going to fall in Love in with. You are going to fall in Love in with. You are
+                            going to fall in Love in with. You are going to fall in Love in with
                         </p>
+                    </div>
+
+                    <div className="button-learn-more">
+                        <a href="#" className="button-learn-more-a">Learn More &rarr;</a>
                     </div>
 
                 </div>
