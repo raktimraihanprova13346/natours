@@ -1,5 +1,6 @@
 import './App.css';
 import HeaderUI from "./header";
+import About from "./about";
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
     return (
         <div className="App">
             <HeaderUI />
+            <main className="about">
+                <About />
+            </main>
         </div>
     );
 }

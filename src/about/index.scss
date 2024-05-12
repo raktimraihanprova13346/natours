@@ -1,0 +1,23 @@
+
+@mixin clearfix(){
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-title{
+  display: inline-block;
+  background-image: linear-gradient(to right, rgb(93, 201, 119),
+          rgb(93, 168, 107));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 600;
+  transition: all .2s ease-in-out;
+
+  &:hover{
+    text-shadow: 1px 1px 2px rgb(136, 179, 146);
+    transform: skewY(-2deg) skewX(-7deg);
+  }
+}
