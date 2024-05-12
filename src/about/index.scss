@@ -5,8 +5,25 @@
   clear: both;
 }
 
+.row{
+  max-width: inherit;
+  border: 1px solid red;
+  align-content: center;
+  text-align: center;
+  padding: 0px 2px;
+  margin: 0 auto;
+}
+
+.col-01{
+  float: left;
+  text-align: left;
+  width: calc((100% - 100px)/2);
+}
+
+
+
 .about-title{
-  display: inline-block;
+  display: block;
   background-image: linear-gradient(to right, rgb(93, 201, 119),
           rgb(93, 168, 107));
   -webkit-background-clip: text;
